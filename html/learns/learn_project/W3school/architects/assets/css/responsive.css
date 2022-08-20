@@ -1,0 +1,29 @@
+/* tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+    .projects_content {
+        grid-template-columns: auto auto;
+    }
+    
+    .about__team {
+        grid-template-columns: auto auto;
+    }
+}
+
+/*mobile*/
+@media (max-width: 739px) {
+    .nav__item:last-child {
+        display: none;
+    }
+
+    .header__img-branch-item.postfix {
+        display: none;
+    }
+
+    .projects_content {
+        grid-template-columns: auto;
+    }
+
+    .about__team {
+        grid-template-columns: auto;
+    }
+}

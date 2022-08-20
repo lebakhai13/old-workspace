@@ -1,0 +1,43 @@
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: orange;
+    width: 100vw;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 100px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
+}
+
+/* mobile */
+@media only screen and (max-width: 46.1875em) {
+    .box1{
+        display: flex;
+    }
+}
+
+/* tablet */
+@media only screen and (min-width: 46.25em) and (max-width: 63.9375em){
+    .box2{
+        display: flex;
+    }
+}
+
+/* pc */
+@media only screen and (min-width: 64em){
+    .box3{
+        display: flex;
+    }
+}

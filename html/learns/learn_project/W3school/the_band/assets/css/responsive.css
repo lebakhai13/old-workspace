@@ -1,0 +1,132 @@
+/* mobile */
+@media (max-width: 740px){
+    #header{
+        z-index: 10;
+    }    
+
+    #header #nav li{
+        display: none;
+    }
+
+   .more-nav{
+       /* display: none !important; */
+   }
+
+    #header #nav .home-nav{
+        display: inline-block;
+    }
+
+    #header .search{
+        display: none;
+    }
+
+    #header:target{
+        height: unset;
+    }
+
+    #header:target .nav-bar-menu-open{
+        display: none;
+        transform: translateX(-100px);
+    }
+
+    #header:target #nav li{
+        display: block;
+    }
+
+    #header:target #nav li a{
+        padding-right: 100%;
+    }
+
+    #header:target .nav-bar-menu-close{
+        display: inline-block;
+    }
+    
+    .black-background{
+        padding-bottom: 64px;
+    }
+    
+    .img-about{
+        width: 100%;
+        float: unset;
+    }
+
+    .tour-content{
+        margin-top: unset;
+    }
+
+    .ticket-count{
+        width: calc(100% - 32px);
+    }
+
+    .buy-ticket-container .buy-ticket{
+        width: 100%;
+        float: unset;
+        margin-bottom: 16px;
+    }
+
+    .contact-info{
+        margin-bottom: 16px;
+    }
+
+    .contact-input{
+        width: 100%;
+    }
+
+    .name-form{
+        margin-bottom: 8px;
+    }
+
+    .form-item{
+        width: calc(100% - 18px);
+    }
+
+    #footer{
+
+    }
+
+
+    .modal-container{
+        margin: 0px 16px;
+    }
+
+    }
+
+    /* tablet */
+    @media (min-width: 740px) and (max-width: 1023px){
+    #slider{
+        height: 38vh;
+    }
+
+    .ticket-count{
+        margin: 0px 16px;
+    }
+    
+    .name-form{
+        margin-bottom: 8px;
+    }
+    
+    .name-form,.email-form{
+        width: 23.3em;
+    }
+    
+    .message-form{
+        width: 23.3em;
+    }
+
+    .nav-bar-menu-open{
+        display: none;
+    }
+    .nav-bar-menu-close{
+        display: none;
+    }
+    }
+    /* pc */
+    @media (min-width: 1024px){
+    #slider{
+        height: 89vh;
+    }
+    .nav-bar-menu-open{
+        display: none;
+    }
+    }
+    

@@ -1,0 +1,34 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --text-color: #333;
+    --default-color: #fff;
+    --second-default-color: #000;
+    --primary-color: #545458;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.5;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Playfair Display";
+    letter-spacing: 5px;
+}
+
+.btn {
+    background-color: #f1f1f1;
+    outline: none;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 2px;
+}
+
+.btn:hover {
+    background-color: #ccc;
+}

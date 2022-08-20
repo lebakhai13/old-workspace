@@ -1,0 +1,45 @@
+*{
+margin: 0px 0px;
+padding: 0px 0px;
+}
+
+html{
+    background: url(/html/projects/gmsteam/assets/img/backgrounds/1.png) top center /cover no-repeat;
+    font-family: lato;
+}
+
+#header{
+    position: fixed;
+    box-sizing: border-box;
+    width: 100vw;
+    height: 45px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    background-color: rgba(0, 0, 0, 0.5);
+    font-weight: bold;
+}
+
+#nav{
+position: absolute;
+right: 50%;
+transform: translateX(50%);
+}
+
+#nav li{
+    display: inline-block;
+    padding: 0px 25px;
+}
+
+#nav li:hover{
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+#nav li:hover a{
+    color: #000;
+}
+
+#nav a{
+    color: #fff;
+    list-style: none;
+    text-decoration: none;
+    line-height: 44px;
+}

@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;                                      
+}
+
+:root {
+    --default-text-color: #fff;
+    --primary-color: #95e1d3;
+    --second-primary-color: #;
+}
+
+.content__sub-heading {
+    font-family: 'Kaushan Script', cursive;
+
+}
+
+.content__heading {
+    text-transform: uppercase;
+}
+
+.btn {
+    --width: 160px;
+    --height: 40px;
+    --color: #fff;
+    width: var(--width);
+    height: var(--height);
+    border: 3px solid var(--color);
+}

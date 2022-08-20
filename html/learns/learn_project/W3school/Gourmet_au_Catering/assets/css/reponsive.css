@@ -1,0 +1,42 @@
+@media (max-width: 739px) {
+    #main {
+        overflow: hidden;
+    }
+    
+    .nav{
+        display: none;
+    }
+
+    #about {
+        flex-wrap: wrap;
+    }
+
+    .about-img {
+        flex: none;
+    }
+
+    .about-content {
+        flex: none;
+        width: fit-content;
+    }
+
+    #menu {
+        flex-wrap: wrap;
+    }
+
+    .menu-content {
+        flex: none;
+        width: fit-content;
+    }
+
+    .menu-img-wrap {
+        flex: none;
+        overflow: hidden;
+        margin: 0 24px;
+        width: calc(100% - 48px);
+    }
+
+    .menu-img {
+        width: 100%;
+    }
+}

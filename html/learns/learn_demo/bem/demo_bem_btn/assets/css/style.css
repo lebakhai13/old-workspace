@@ -1,0 +1,47 @@
+*{
+    padding: 0px 0px;
+    margin: 0px 0px;
+}
+
+#main{
+    min-width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.btn{
+    display: inline-block;
+    text-decoration: none;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: #fff;
+    padding: 12px 50px;
+    border-radius: 2em;
+    cursor: pointer;
+    transition: opacity 0.2s ease;
+}
+
+.btn:hover{
+    opacity: 0.8;
+}
+
+.btn--success{
+    background-color: #71be34;
+}
+
+.btn--warn{
+    background-color:#ffb702;
+}
+
+.btn--danger{
+    background-color: #ff623d;
+}
+
+.btn--disabled{
+    opacity: 1 !important;
+    cursor: unset;
+    background-color: #ccc;
+}

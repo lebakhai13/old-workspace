@@ -24,7 +24,7 @@ var items = [
         id: 004,
         name: 'crystal sword',
         coin: 100,
-        damage: 50,
+        damage: 50, 
         speed: 10,
     },
     {
@@ -36,4 +36,5 @@ var items = [
     },
 ]
 
+console.log('a')
 

@@ -1,2 +1,2 @@
 # workspace
-forget the past, but remenber the lessons 
+forget the past, but remember the lessons 
